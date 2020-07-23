@@ -225,6 +225,7 @@
 }
 body {
   background-color: black !important;
+  overflow-x: hidden;
 }
 .body {
   font-family: "Raleway", sans-serif !important;
@@ -438,4 +439,8 @@ body {
       110% 10%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
+}
+
+.foot {
+  color: white;
 }
