@@ -250,6 +250,19 @@ body {
   margin: 0 auto;
 }
 
+#container div {
+  background-color: darkslateblue;
+  height: 60px;
+  width: 60px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 30px;
+  color: green;
+}
+
 #generate-sudoku {
   margin: auto;
   display: block;
@@ -269,19 +282,6 @@ body {
 #solve {
   margin: auto;
   display: block;
-}
-
-#container div {
-  background-color: darkslateblue;
-  height: 60px;
-  width: 60px;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 60px;
-  font-size: 30px;
-  color: green;
 }
 
 .selection {
