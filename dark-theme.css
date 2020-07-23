@@ -443,4 +443,22 @@ body {
 
 .foot {
   color: white;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  transform: translate(0%);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 360px;
+  }
+
+  #container div {
+    height: 40px;
+    width: 40px;
+  }
 }
