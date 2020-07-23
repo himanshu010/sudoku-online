@@ -172,11 +172,7 @@ function switchSheet() {
 
   if (theme.getAttribute("href") == "light-theme.css") {
     theme.href = "dark-theme.css";
-    prefill_color = "grey";
-    afterfill_color = "blue";
   } else {
-    prefill_color = "black";
-    afterfill_color = "lightblue";
     theme.href = "light-theme.css";
   }
 }
