@@ -166,15 +166,15 @@ var bubblyButtons = document.getElementsByClassName("bubbly-button");
 for (var i = 0; i < bubblyButtons.length; i++) {
   bubblyButtons[i].addEventListener("click", animateButton, false);
 }
-var sBut = document.getElementById("s-but");
+var sbut = document.getElementById("s-but");
 function switchSheet() {
   let theme = document.getElementById("theme");
 
   if (theme.getAttribute("href") == "light-theme.css") {
     theme.href = "dark-theme.css";
-    sBut.innerHTML() = "Dark";
+    sbut.innerHTML = "Light🌞";
   } else {
-    sBut.innerHTML() = "Light";
     theme.href = "light-theme.css";
+    sbut.innerHTML = "Dark🌚";
   }
 }
