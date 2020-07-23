@@ -26,7 +26,7 @@ function setTemp(board, temp) {
 }
 
 var prefill_color = "grey";
-var afterfill_color = "green";
+var afterfill_color = "red";
 
 function setColor(temp) {
   for (var i = 0; i < 9; i++) {
