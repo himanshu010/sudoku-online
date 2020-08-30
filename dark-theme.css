@@ -98,19 +98,19 @@
 }
 
 .ldb {
-  border-left: black 0.6px dashed;
+  border-left: white 1px dashed !important;
 }
 
 .bdb {
-  border-bottom: black 0.6px dashed;
+  border-bottom: white 1px dashed !important;
 }
 
 .rdb {
-  border-right: black 0.6px dashed;
+  border-right: white 1px dashed !important;
 }
 
 .tdb {
-  border-top: black 0.6px dashed;
+  border-top: white 1px dashed !important;
 }
 
 .bubbly-button {

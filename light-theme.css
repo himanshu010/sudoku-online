@@ -100,19 +100,19 @@ body {
 }
 
 .ldb {
-  border-left: black 0.6px dashed;
+  border-left: black 1px dashed;
 }
 
 .bdb {
-  border-bottom: black 0.6px dashed;
+  border-bottom: black 1px dashed;
 }
 
 .rdb {
-  border-right: black 0.6px dashed;
+  border-right: black 1px dashed;
 }
 
 .tdb {
-  border-top: black 0.6px dashed;
+  border-top: black 1px dashed;
 }
 
 .foot {
